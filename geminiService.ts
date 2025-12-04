@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || ''; 
+const apiKey = process.env.API_KEY || 'AIzaSyD3bqwZgrpBBAkTCFk_RlxBd2EDdCC6ZwA'; 
 // Note: In a real production app, ensure API_KEY is set in the environment variables.
 // This service gracefully handles missing keys by returning the prompt itself or a mock response if needed, 
 // but strictly follows the instruction to use process.env.API_KEY.
